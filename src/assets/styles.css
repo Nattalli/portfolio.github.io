@@ -1,14 +1,14 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f7f7f7; /* Світло-сірий колір фону */
-    color: #333333; /* Темно-сірий колір тексту */
+    background-color: #f7f7f7;
+    color: #333333;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 h1, h2, h3 {
-    color: #333333; /* Темно-сірий колір заголовків */
+    color: #333333;
 }
 
 .container {
@@ -18,15 +18,15 @@ h1, h2, h3 {
 }
 
 header, section {
-    padding: 40px 20px; /* Відступи для більш компактного вигляду */
+    padding: 40px 20px;
 }
 
 header {
-    background-color: #ffffff; /* Білий колір фону для хедера */
+    background-color: #ffffff;
 }
 
 section {
-    border-bottom: 1px solid #e0e0e0; /* Світло-сірий колір лінії */
+    border-bottom: 1px solid #e0e0e0;
 }
 
 ul {
@@ -35,13 +35,13 @@ ul {
 }
 
 a {
-    color: #e63946; /* Червоний колір посилань */
+    color: #EB5E28;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #d62828; /* Темно-червоний колір при наведенні */
+    color: #252422;
 }
 
 .rounded {

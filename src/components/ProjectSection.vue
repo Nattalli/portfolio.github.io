@@ -6,7 +6,7 @@
         <div class="project margin-bottom" v-for="project in projects" :key="project.id">
           <h3 class="text-bold">{{ project.name }}</h3>
           <p>{{ project.description }}</p>
-          <a :href="project.link" target="_blank">View Project</a>
+          <a class="text-bold" :href="project.link" target="_blank">View Project</a>
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ export default {
   text-align: left;
 }
 .projects h2 {
-  color: #333333;
+  color: #252422;
 }
 .project-list {
   display: flex;
@@ -70,18 +70,18 @@ export default {
 }
 .project h3 {
   margin-top: 0;
-  color: #333333;
+  color: #252422;
 }
 .project p {
-  color: #666666;
+  color: #403D39;
 }
 .project a {
-  color: #e63946;
+  color: #EB5E28;
   text-decoration: none;
   transition: color 0.3s;
 }
 .project a:hover {
-  color: #d62828;
+  color: #252422;
 }
 .project:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

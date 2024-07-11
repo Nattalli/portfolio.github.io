@@ -1,14 +1,11 @@
 <template>
   <div id="app">
-    <HeaderSection/>
-    <div className="main-content">
-      <TechnologiesSection/>
-      <SummarySection/>
-      <AboutSection/>
-      <ExperienceSection/>
-      <EducationSection/>
-      <ProjectSection/>
-      <ContactSection/>
+    <HeaderSection />
+    <div class="main-content">
+      <TechnologiesSection />
+      <SummarySection />
+      <ExperienceEducationSection />
+      <ProjectSection />
     </div>
   </div>
 </template>
@@ -17,10 +14,7 @@
 import HeaderSection from './components/HeaderSection.vue';
 import TechnologiesSection from './components/TechnologiesSection.vue';
 import SummarySection from './components/SummarySection.vue';
-import AboutSection from './components/AboutSection.vue';
-import ExperienceSection from './components/ExperienceSection.vue';
-import EducationSection from './components/EducationSection.vue';
-import ContactSection from './components/ContactSection.vue';
+import ExperienceEducationSection from './components/ExperienceEducationSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
 
 export default {
@@ -28,11 +22,8 @@ export default {
     HeaderSection,
     TechnologiesSection,
     SummarySection,
-    AboutSection,
-    ExperienceSection,
-    EducationSection,
-    ContactSection,
-    ProjectSection
+    ExperienceEducationSection,
+    ProjectSection,
   }
 };
 </script>
@@ -106,12 +97,12 @@ ul {
 }
 
 a {
-  color: #e63946;
+  color: #EB5E28;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #d62828;
+  color: #252422;
 }
 </style>
